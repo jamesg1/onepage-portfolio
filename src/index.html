@@ -29,27 +29,24 @@
     	</div>
         <nav id="top-navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a data-scroll href="#">Home</a></li>
+                <li><a data-scroll href="#About">About</a></li>
+                <li><a data-scroll href="#Work">Work</a></li>
+                <li><a data-scroll href="#Contact">Contact</a></li>
             </ul>
         </nav>
     </div>
 </nav>
 
-<div class="top-header" id="content">
-    <div class="container">
-    	<img class="profile-photo" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/27b/0b5/1e12b87.jpg" />
-        <h1 class="title">James Gosbell</h1>
-        <p class="intro">Enthusiastic young Sydney based Front-end Developer with 3 years experience focused on delivering mobile-first customer branded Training sites.</p>
-    </div>
-</div>
-
 	<!-- Compiled and minified jQuery -->
     <script src="js/jquery.min.js"></script>
 	<!-- Compiled and minified Bootstrap JavaScript -->
 	<script src="js/bootstrap.min.js"></script>
+    <!-- Compiled and minified Smooth Scroll -->
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>
+        smoothScroll.init();
+    </script>
 
 </body>
 </html>

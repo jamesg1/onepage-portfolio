@@ -14,7 +14,15 @@ module.exports = function (grunt) {
                     },
                     {
                         expand: true,
-                        cwd: 'bower_components/jquery/dist/',
+                        cwd: 'bower_components/jquery/dist/js',
+                        src: ['**/*.min.js'],
+                        dest: 'src/js/'
+                    },
+                    {
+                        expand: true,
+                        filter: 'isFile',
+                        flatten: true,
+                        cwd: 'bower_components/smooth-scroll/dist/',
                         src: ['**/*.min.js'],
                         dest: 'src/js/'
                     },
