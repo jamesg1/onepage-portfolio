@@ -1,0 +1,25 @@
+{
+  "name": "onepage-portfolio",
+  "version": "1.0.0",
+  "description": "One Page Portfolio using Grunt, Bower and Bootstrap 3 SASS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesg1/onepage-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesg1/onepage-portfolio/issues"
+  },
+  "homepage": "https://github.com/jamesg1/onepage-portfolio#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.1.0"
+  }
+}
