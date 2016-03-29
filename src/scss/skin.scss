@@ -4,7 +4,7 @@
 // Navbar
 .navbar {
     margin-bottom: 0;
-    background-color: #20546C;
+    background-color: rgba(32, 84, 108, 100);
     a {
         color: #fff;
     }
@@ -54,8 +54,31 @@
     border-bottom: #dddddd solid 1px;
 }
 
-// Font Awesome
+#About .label{
+    font-size: 18px;
+}
 
+#Contact {
+    background: #000;
+    > .container {
+        padding: 50px 0;
+        h1{
+            color: #fff;
+        }
+    }
+}
+
+// Font Awesome
 .fa.fa-3 {
     font-size: 4em;
+}
+
+// Font
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    color: #99979c;
+    text-align: center;
+    background-color: #2a2730;
 }
