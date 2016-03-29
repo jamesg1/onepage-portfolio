@@ -30,6 +30,22 @@ module.exports = function (grunt) {
                         expand: true,
                         filter: 'isFile',
                         flatten: true,
+                        cwd: 'bower_components/font-awesome/css/',
+                        src: ['**/*.min.css'],
+                        dest: 'src/css/'
+                    },
+                    {
+                        expand: true,
+                        filter: 'isFile',
+                        flatten: true,
+                        cwd: 'bower_components/',
+                        src: ['font-awesome/fonts/**'],
+                        dest: 'src/fonts/'
+                    },
+                    {
+                        expand: true,
+                        filter: 'isFile',
+                        flatten: true,
                         cwd: 'bower_components/',
                         src: ['bootstrap-sass/assets/fonts/**'],
                         dest: 'src/fonts/'

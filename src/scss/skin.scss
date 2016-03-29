@@ -4,7 +4,7 @@
 // Navbar
 .navbar {
     margin-bottom: 0;
-    background-color: #52ADD8;
+    background-color: #20546C;
     a {
         color: #fff;
     }
@@ -43,10 +43,19 @@
     box-shadow: 0 0 0 5px #fff;
 }
 
-@media (min-width: 768px) {
-    .top-header {
-        padding-top: 120px;
-        padding-bottom: 120px;
-        text-align: center;
-    }
+.top-header {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.dark {
+    background: #fafafa;
+    border-bottom: #dddddd solid 1px;
+}
+
+// Font Awesome
+
+.fa.fa-3 {
+    font-size: 4em;
 }
