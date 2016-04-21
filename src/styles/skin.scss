@@ -1,0 +1,73 @@
+// Skin
+// --------------------------------------------------
+// Navbar
+.navbar {
+    margin-bottom: 0;
+    background-color: rgba(32, 84, 108, 100);
+    a {
+        color: #fff;
+    }
+}
+.navbar-toggle {
+    .icon-bar {
+        background-color: #fff;
+    }
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+    text-decoration: none;
+    background-color: #307EA3;
+}
+// Header
+.top-header {
+    color: #fff;
+    background: #52ADD8;
+    .intro {
+        width: 75%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+}
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 0 5px #fff;
+}
+.top-header {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.dark {
+    border-bottom: #dddddd solid 1px;
+    background: #fafafa;
+}
+#About .label {
+    font-size: 18px;
+}
+#Contact {
+    background: #000;
+    > .container {
+        padding: 50px 0;
+        h1 {
+            color: #fff;
+        }
+    }
+}
+// Font Awesome
+.fa.fa-3 {
+    font-size: 4em;
+}
+// Font
+.footer {
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #99979c;
+    background-color: #2a2730;
+}
