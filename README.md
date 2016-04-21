@@ -1,7 +1,7 @@
 # One Page Portfolio
 A One page portfolio using Bower, Gulp and Bootstrap-SASS.
 http://test.sfcu.com.au/portfolio
-![alt tag](http://s28.postimg.org/wp9eizc5p/portfolio.jpg)
+![alt tag](http://s31.postimg.org/rcs8cbke3/one_page.png)
 
 ## Installation
 
