@@ -6,6 +6,7 @@ var gulp = require('gulp'),
     mainBowerFiles = require('gulp-main-bower-files'),
     filter = require('gulp-filter'),
     concat = require('gulp-concat'),
+    image = require('gulp-image'),
     rename = require('gulp-rename'),
     gutil = require('gulp-util'),
     sourcemaps = require('gulp-sourcemaps'),
@@ -16,6 +17,22 @@ var gulp = require('gulp'),
 
 gulp.task('clean', function() {
     return del(['dist/*']);
+});
+
+gulp.task('copy-images', function() {
+    gulp.src('src/img/*')
+        .pipe(image({
+            pngquant: true,
+            optipng: false,
+            zopflipng: true,
+            advpng: true,
+            jpegRecompress: false,
+            jpegoptim: true,
+            mozjpeg: true,
+            gifsicle: true,
+            svgo: true
+        }))
+        .pipe(gulp.dest('dist/img'));
 });
 
 // Static Server + watching scss/html files
@@ -70,8 +87,8 @@ gulp.task('build-css', function() {
 });
 
 function onError(err) {
-  console.log(err);
-  this.emit('end');
+    console.log(err);
+    this.emit('end');
 }
 
 gulp.task('build-vendor-js', function() {
@@ -111,5 +128,5 @@ gulp.task('inject', function() {
 
 
 gulp.task('default', ['clean', 'build-css', 'build-vendor-js'], function() {
-    gulp.start('build-js', 'inject', 'serve');
+    gulp.start('build-js', 'inject', 'copy-images', 'serve');
 });
