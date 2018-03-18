@@ -1,21 +1,21 @@
 {
-    "name": "gulp-project",
-    "description": "gulp-project",
-    "main": "index.js",
-    "authors": [
-        "James"
-    ],
-    "license": "MIT",
-    "moduleType": [],
-    "homepage": "",
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "test",
-        "tests"
-    ],
-    "dependencies": {
-        "bootstrap-sass": "^3.3.6"
-    }
+  "name": "gulp-project",
+  "description": "gulp-project",
+  "main": "index.js",
+  "authors": [
+    "James"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6"
+  }
 }
