@@ -1,13 +1,13 @@
 {
-  "name": "onepage-portfolio",
-  "homepage": "https://github.com/jamesg1/onepage-portfolio",
+  "name": "gulp-project",
+  "description": "gulp-project",
+  "main": "index.js",
   "authors": [
-    "James Gosbell <james.gosbell@servicerocket.com>"
+    "James"
   ],
-  "description": "One Page Portfolio using Grunt, Bower and Bootstrap 3 SASS.",
-  "main": "",
-  "moduleType": [],
   "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -16,7 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-sass": "^3.3.6",
-    "font-awesome": "fontawesome#^4.5.0"
+    "bootstrap-sass": "^3.3.6"
   }
 }
